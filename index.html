@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ИГРОСФЕРА Башкортостан</title>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+<style>
+body { font-family: 'Roboto', sans-serif; margin:0; background:#e0f7fa; color:#004d40; }
+header { background:#00bcd4; color:white; padding:30px 20px; text-align:center; }
+header img { max-width:100px; border-radius:50%; display:block; margin:0 auto 10px; }
+nav { display:flex; justify-content:center; background:#006064; flex-wrap:wrap; }
+nav a { color:white; margin:10px 15px; text-decoration:none; font-weight:500; padding:8px 12px; border-radius:5px; }
+nav a:hover { background:#00acc1; }
+section { padding:40px 20px; max-width:1000px; margin:0 auto; }
+h2 { color:#00acc1; margin-bottom:20px; }
+.button { display:inline-block; background:#00bcd4; color:white; padding:10px 20px; border-radius:8px; text-decoration:none; font-weight:500; transition:0.2s; }
+.button:hover { background:#00acc1; }
+.posts,.events,.blog,.faces-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:20px; }
+.card { background:white; border-radius:12px; padding:20px; box-shadow:0 4px 10px rgba(0,0,0,0.1); transition:0.2s; }
+.card:hover { transform:translateY(-5px); box-shadow:0 8px 20px rgba(0,0,0,0.15); }
+.card h3 { margin-top:0; color:#004d40; }
+.card p { color:#555; }
+footer { background:#006064; color:white; text-align:center; padding:20px; margin-top:40px; }
+@media(max-width:600px){ nav { flex-direction:column; } }
+</style>
+</head>
+<body>
+<header>
+<img src="logo.png" alt="Логотип">
+<h1>ИГРОСФЕРА Башкортостан</h1>
+<p>Сообщество игропрактиков Республики Башкортостан</p>
+<a href="https://t.me/igrosferabashkortostan" target="_blank" class="button">Подписаться на Telegram</a>
+</header>
+
+<nav>
+<a href="index.html">Главная</a>
+<a href="about.html">О нас</a>
+<a href="events.html">Расписание</a>
+<a href="news.html">Новости</a>
+<a href="games.html">Библиотека игр</a>
+<a href="blog.html">Блог</a>
+<a href="faces.html">Лица Ассоциации</a>
+</nav>
+
+<section>
+<h2>Расписание и анонсы мероприятий</h2>
+<div class="events">
+<div class="card">
+<h3>Мастер-класс по ролевым играм</h3>
+<p>Дата: 20 марта 2026<br>Место: Уфа, Дом Культуры</p>
+<a href="events.html" class="button">Все мероприятия</a>
+</div>
+<div class="card">
+<h3>Онлайн-встреча игропрактиков</h3>
+<p>Дата: 28 марта 2026<br>Формат: Zoom</p>
+<a href="events.html" class="button">Все мероприятия</a>
+</div>
+</div>
+</section>
+
+<section>
+<h2>Новости мира игросферы</h2>
+<div class="posts">
+<div class="card">
+<h3>Новости 1</h3>
+<p>Краткий анонс новости. <a href="news1.html">Подробнее</a></p>
+</div>
+<div class="card">
+<h3>Новости 2</h3>
+<p>Краткий анонс новости. <a href="news2.html">Подробнее</a></p>
+</div>
+</div>
+<a href="news.html" class="button">Все новости</a>
+</section>
+
+<section>
+<h2>Библиотека игр</h2>
+<div class="posts">
+<div class="card">
+<h3>Игра 1</h3>
+<p>Описание игры. <a href="game1.html">Подробнее</a></p>
+</div>
+<div class="card">
+<h3>Игра 2</h3>
+<p>Описание игры. <a href="game2.html">Подробнее</a></p>
+</div>
+</div>
+<a href="games.html" class="button">Вся библиотека игр</a>
+</section>
+
+<section>
+<h2>Блог мероприятий</h2>
+<div class="blog">
+<div class="card">
+<h3>Отчёт: Ролевая игра "Путешествие"</h3>
+<p>Фото и краткий отчет о мероприятии. <a href="blog1.html">Подробнее</a></p>
+</div>
+</div>
+<a href="blog.html" class="button">Все отчёты</a>
+</section>
+
+<section>
+<h2>Лица Ассоциации и игры практиков</h2>
+<div class="faces-grid">
+<div class="card">
+<h3>Иван Иванов</h3>
+<p>Игры: "Фантазия", "Квест 2025"</p>
+</div>
+<div class="card">
+<h3>Мария Петрова</h3>
+<p>Игры: "Приключение", "Ролевая игра X"</p>
+</div>
+</div>
+<a href="faces.html" class="button">Все участники и игры</a>
+</section>
+
+<footer>
+<p>&copy; 2026 ИГРОСФЕРА Башкортостан. Все права защищены.</p>
+</footer>
+</body>
+</html>
